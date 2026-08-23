@@ -1,81 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biswajit Singha - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic website of Biswajit Singha, Ph.D. Scholar in Mathematics at IIT Kharagpur.">
+  <title>Biswajit Singha | Mathematics Researcher</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">Biswajit Singha</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="brand" href="index.html"><span>B</span> Biswajit Singha</a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="academic.html">Academic</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="awards.html">Awards</a>
+    </div>
+  </nav>
+</header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Fuzziness embraces uncertainty; optimization seeks the best within it.</p>
-            <button class="cta-button">Get Started</button>
-        </div>
-    </section>
+<main>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">MATHEMATICS • FUZZY SYSTEMS • COMPUTATIONAL METHODS</p>
+      <h1>Biswajit <em>Singha</em></h1>
+      <p class="hero-title">Ph.D. Scholar in Mathematics</p>
+      <p class="hero-text">
+        Indian Institute of Technology Kharagpur
+      </p>
+      <p class="hero-intro">
+        I work at the intersection of mathematics, fuzzy systems, geometry and computational
+        methods, with an interest in developing mathematical models for uncertain data.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="research.html">Explore my research</a>
+        <a class="btn secondary" href="Biswajit_Singha_CV.pdf" target="_blank">View CV ↗</a>
+      </div>
+    </div>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am currently Research Fellow at IIT Kharagpur under the supervision of Prof. Debjani Chakraborty.</p>
-             <br><br>
-            <p> I completed my B.Sc. from Siliguri College (Under University of North Bengal) and M.Sc. in Mathematics from Cooch Behar Panchanan Barma University.</p>
-        </div>
-    </section>
+    <div class="hero-card reveal">
+      <div class="math-mark">∫</div>
+      <div>
+        <p class="small-label">CURRENTLY</p>
+        <h3>Ph.D. Research</h3>
+        <p>Department of Mathematics<br>Indian Institute of Technology Kharagpur</p>
+      </div>
+      <div class="card-line"></div>
+      <div class="mini-stats">
+        <div><strong>2024–</strong><span>Ph.D.</span></div>
+        <div><strong>8.29</strong><span>M.Sc. CGPA</span></div>
+        <div><strong>161</strong><span>CSIR-UGC NET AIR</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of your 1st project</p>
-                    <a href="#">View Project →</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of your 2nd project</p>
-                    <a href="#">View Project →</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of your 3rd project</p>
-                    <a href="#">View Project →</a>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="section">
+  <div class="container">
+    <div class="section-heading reveal">
+      <p class="eyebrow">ABOUT</p>
+      <h2>Mathematics with a computational perspective.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I am a mathematics researcher pursuing my Ph.D. at IIT Kharagpur. My academic
+          interests include fuzzy set theory, fuzzy numbers, fuzzy metric spaces,
+          computational geometry and machine-learning approaches for uncertain data.
+        </p>
+        <p>
+          My work combines mathematical formulation with computational experimentation,
+          aiming to build interpretable methods that connect uncertainty, geometry and
+          data-driven modelling.
+        </p>
+      </div>
+      <div class="focus-list reveal">
+        <div class="focus-item"><span>01</span><div><b>Fuzzy Mathematics</b><small>Fuzzy sets, fuzzy numbers & metric spaces</small></div></div>
+        <div class="focus-item"><span>02</span><div><b>Computational Geometry</b><small>Geometric representations of uncertainty</small></div></div>
+        <div class="focus-item"><span>03</span><div><b>Machine Learning</b><small>Fuzzy and geometry-based classification</small></div></div>
+        <div class="focus-item"><span>04</span><div><b>Numerical Computing</b><small>Python, C & MATLAB</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <p>Feel free to reach out to me on social media or send me an email.</p>
-            <div class="social-links">
-                <a href="#">GitHub</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Twitter</a>
-                <a href="mailto:your-email@example.com">Email</a>
-            </div>
-        </div>
-    </section>
+<section class="section dark-section">
+  <div class="container">
+    <div class="section-heading light reveal">
+      <p class="eyebrow">HIGHLIGHTS</p>
+      <h2>Academic journey</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal"><span>2024–Present</span><div><h3>Ph.D. in Mathematics</h3><p>Indian Institute of Technology Kharagpur</p></div></div>
+      <div class="timeline-item reveal"><span>2021–2023</span><div><h3>M.Sc. in Mathematics</h3><p>Cooch Behar Panchanan Barma University • CGPA 8.29</p></div></div>
+      <div class="timeline-item reveal"><span>2017–2021</span><div><h3>B.Sc. in Mathematics</h3><p>Siliguri College, University of North Bengal • 81.38%</p></div></div>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <p>&copy; 2026 Biswajit Singha. All rights reserved.</p>
-    </footer>
+<section class="section cv-section">
+  <div class="container cv-box reveal">
+    <div>
+      <p class="eyebrow">DOCUMENT</p>
+      <h2>Find my CV</h2>
+      <p>Download or open my current academic curriculum vitae.</p>
+    </div>
+    <a class="btn light-btn" href="Biswajit_Singha_CV.pdf" target="_blank">Open CV PDF ↗</a>
+  </div>
+</section>
+</main>
 
-    <script src="script.js"></script>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><b>Biswajit Singha</b><p>Ph.D. Scholar in Mathematics<br>IIT Kharagpur</p></div>
+    <div><p>✉ <a href="mailto:singhabiswa19@gmail.com">singhabiswa19@gmail.com</a></p><p>LinkedIn: <a href="https://www.linkedin.com/in/biswajit-singha-b2780b2b0/" target="_blank">biswajit-singha</a></p></div>
+  </div>
+  <div class="container copyright">© <span id="year"></span> Biswajit Singha. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
